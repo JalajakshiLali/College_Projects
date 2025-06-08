@@ -1,0 +1,501 @@
+patient_id,site_id,study_arm,age,gender,ethnicity,medical_history,enrollment_date,status
+PT0001,SITE05,Treatment,50,Male,Caucasian,Hyperlipidemia,2024-12-14,Completed
+PT0002,SITE09,Placebo,73,Male,Hispanic,"Hypertension, Asthma, Arthritis, Depression",2024-12-02,Completed
+PT0003,SITE10,Placebo,59,Female,Caucasian,"Asthma, Depression, COPD",2025-02-20,Completed
+PT0004,SITE01,Treatment,36,Female,Caucasian,"COPD, Depression",2024-09-08,Completed
+PT0005,SITE10,Treatment,31,Male,African American,"Depression, Obesity, Hypertension, Arthritis",2024-12-31,Completed
+PT0006,SITE05,Treatment,52,Female,African American,"Hypertension, Asthma, COPD, Hyperlipidemia",2025-03-05,Completed
+PT0007,SITE06,Treatment,25,Female,Caucasian,"Asthma, Obesity, Diabetes",2024-11-09,Completed
+PT0008,SITE07,Placebo,72,Female,Caucasian,"Asthma, Hypertension, Hyperlipidemia, Depression",2024-11-04,Completed
+PT0009,SITE09,Treatment,62,Male,Caucasian,"Depression, COPD, Obesity",2025-02-06,Completed
+PT0010,SITE06,Placebo,37,Male,African American,"Obesity, Diabetes, Hypertension, Hyperlipidemia, Asthma",2024-09-05,Completed
+PT0011,SITE05,Treatment,19,Male,African American,"Depression, COPD, Anxiety, Asthma, Diabetes",2024-06-18,Ongoing
+PT0012,SITE07,Placebo,65,Female,Caucasian,"Obesity, Asthma, Diabetes",2024-09-05,Withdrawn
+PT0013,SITE01,Placebo,43,Male,Hispanic,"Obesity, Diabetes, Hypertension",2024-06-01,Ongoing
+PT0014,SITE05,Treatment,63,Male,Hispanic,"Arthritis, Obesity, Hypertension, Asthma",2025-01-02,Completed
+PT0015,SITE02,Treatment,21,Male,Caucasian,None,2024-10-10,Withdrawn
+PT0016,SITE04,Treatment,36,Male,Hispanic,"Diabetes, COPD, Obesity, Arthritis, Asthma",2025-02-15,Ongoing
+PT0017,SITE07,Treatment,45,Male,Caucasian,"Obesity, Arthritis",2024-10-03,Completed
+PT0018,SITE05,Treatment,45,Male,Caucasian,None,2024-08-21,Completed
+PT0019,SITE06,Treatment,38,Female,Caucasian,"Hyperlipidemia, Hypertension, Asthma, Arthritis",2025-03-10,Withdrawn
+PT0020,SITE02,Treatment,54,Female,Caucasian,Depression,2024-11-18,Completed
+PT0021,SITE03,Treatment,28,Male,Caucasian,"Depression, Asthma, Diabetes",2024-07-29,Completed
+PT0022,SITE07,Treatment,42,Male,Asian,"Hypertension, Hyperlipidemia, Depression",2024-07-02,Ongoing
+PT0023,SITE02,Treatment,46,Female,Caucasian,"Arthritis, Diabetes, Asthma, Obesity, Hypertension",2024-11-08,Withdrawn
+PT0024,SITE06,Treatment,52,Female,Caucasian,Obesity,2025-03-11,Completed
+PT0025,SITE05,Treatment,55,Male,Caucasian,Hyperlipidemia,2024-09-14,Completed
+PT0026,SITE10,Placebo,28,Male,Asian,"Arthritis, Anxiety, COPD, Hypertension",2024-09-13,Completed
+PT0027,SITE01,Treatment,21,Male,Caucasian,"Asthma, Diabetes",2025-01-14,Ongoing
+PT0028,SITE10,Treatment,64,Male,Caucasian,"Obesity, Asthma, Hyperlipidemia, Depression",2024-12-05,Completed
+PT0029,SITE04,Treatment,49,Female,Caucasian,Depression,2024-08-09,Completed
+PT0030,SITE02,Treatment,33,Male,Caucasian,"Obesity, Asthma, COPD, Arthritis, Anxiety",2025-03-17,Withdrawn
+PT0031,SITE04,Treatment,68,Male,Other,None,2024-08-26,Completed
+PT0032,SITE01,Treatment,46,Male,Asian,Hypertension,2024-07-26,Ongoing
+PT0033,SITE02,Treatment,62,Male,Caucasian,"Arthritis, Anxiety, Diabetes, COPD, Depression",2024-09-21,Completed
+PT0034,SITE08,Placebo,46,Female,Asian,"Asthma, Hypertension, Diabetes",2024-06-13,Completed
+PT0035,SITE06,Placebo,75,Female,African American,"Anxiety, Depression, Asthma, Hypertension",2024-06-18,Ongoing
+PT0036,SITE02,Placebo,71,Female,Hispanic,None,2024-11-29,Completed
+PT0037,SITE06,Treatment,41,Male,Caucasian,"Anxiety, Depression, Hyperlipidemia, Arthritis, Diabetes",2024-09-21,Completed
+PT0038,SITE10,Treatment,59,Male,Caucasian,"Anxiety, COPD, Obesity",2025-01-15,Completed
+PT0039,SITE09,Treatment,54,Female,Caucasian,"Arthritis, Asthma",2024-11-18,Ongoing
+PT0040,SITE07,Treatment,65,Male,African American,None,2025-03-22,Withdrawn
+PT0041,SITE09,Treatment,30,Male,Caucasian,"Asthma, Hypertension, Depression, Arthritis, Anxiety",2024-12-06,Lost to Follow-up
+PT0042,SITE05,Treatment,55,Female,Caucasian,"Arthritis, Anxiety",2024-08-18,Completed
+PT0043,SITE07,Treatment,60,Female,Caucasian,"Hyperlipidemia, Diabetes, Hypertension, Obesity",2024-10-24,Completed
+PT0044,SITE07,Placebo,18,Female,African American,"Asthma, COPD",2024-11-29,Completed
+PT0045,SITE03,Treatment,27,Female,Caucasian,Arthritis,2025-03-13,Withdrawn
+PT0046,SITE07,Treatment,18,Male,African American,None,2025-02-05,Completed
+PT0047,SITE01,Treatment,40,Male,Asian,"Arthritis, Asthma",2024-12-13,Lost to Follow-up
+PT0048,SITE09,Treatment,55,Female,Caucasian,"Anxiety, Hyperlipidemia, Diabetes, Arthritis",2024-08-10,Completed
+PT0049,SITE10,Treatment,67,Male,African American,"Anxiety, Arthritis, Depression, Diabetes, Hyperlipidemia",2025-02-03,Lost to Follow-up
+PT0050,SITE06,Treatment,46,Female,Caucasian,"Hypertension, Obesity, Arthritis",2024-10-24,Withdrawn
+PT0051,SITE05,Placebo,69,Female,Hispanic,"COPD, Arthritis, Hyperlipidemia, Asthma",2024-09-14,Withdrawn
+PT0052,SITE07,Placebo,24,Male,Caucasian,"COPD, Obesity",2025-02-18,Completed
+PT0053,SITE05,Placebo,19,Female,African American,"Obesity, Arthritis",2025-03-23,Completed
+PT0054,SITE10,Placebo,44,Male,Hispanic,"Diabetes, Depression, Asthma",2024-08-09,Completed
+PT0055,SITE05,Treatment,50,Male,Asian,"Obesity, Hyperlipidemia",2024-12-10,Completed
+PT0056,SITE10,Placebo,44,Male,African American,"Diabetes, Obesity, Depression, Asthma",2024-08-07,Completed
+PT0057,SITE07,Treatment,18,Male,Caucasian,"Hyperlipidemia, Arthritis, COPD",2024-07-22,Completed
+PT0058,SITE10,Treatment,43,Female,African American,"Asthma, Depression",2025-03-12,Completed
+PT0059,SITE07,Treatment,25,Male,Hispanic,"Arthritis, Hyperlipidemia",2024-06-09,Ongoing
+PT0060,SITE03,Treatment,55,Female,Caucasian,None,2025-02-06,Ongoing
+PT0061,SITE03,Treatment,50,Female,Caucasian,"Arthritis, Anxiety",2025-03-25,Completed
+PT0062,SITE10,Treatment,30,Female,Asian,"Anxiety, Diabetes, Depression, Obesity, Arthritis",2024-12-01,Lost to Follow-up
+PT0063,SITE03,Placebo,37,Female,African American,"Asthma, Diabetes, Hypertension, Hyperlipidemia, COPD",2024-11-26,Completed
+PT0064,SITE06,Treatment,29,Male,African American,None,2024-12-15,Completed
+PT0065,SITE06,Treatment,44,Male,Caucasian,None,2024-10-06,Completed
+PT0066,SITE03,Treatment,59,Female,African American,"COPD, Diabetes, Obesity",2024-06-20,Withdrawn
+PT0067,SITE03,Treatment,30,Female,Caucasian,"Arthritis, Hypertension, Diabetes, Depression, Anxiety",2024-08-04,Completed
+PT0068,SITE08,Placebo,52,Male,African American,"Hyperlipidemia, Asthma, Diabetes, COPD",2024-11-29,Completed
+PT0069,SITE08,Treatment,37,Female,Caucasian,"Hyperlipidemia, Asthma",2025-01-27,Ongoing
+PT0070,SITE07,Placebo,33,Male,African American,"Diabetes, COPD, Asthma",2024-06-24,Completed
+PT0071,SITE10,Placebo,43,Female,Other,Asthma,2024-08-22,Ongoing
+PT0072,SITE04,Treatment,29,Male,Caucasian,None,2024-12-02,Withdrawn
+PT0073,SITE04,Treatment,36,Female,Other,"Hyperlipidemia, Arthritis",2024-09-07,Lost to Follow-up
+PT0074,SITE03,Placebo,27,Female,Caucasian,"Hypertension, Asthma",2024-08-01,Completed
+PT0075,SITE05,Placebo,74,Male,Asian,"Depression, Hypertension, Arthritis, Hyperlipidemia",2025-03-13,Completed
+PT0076,SITE03,Placebo,45,Female,Hispanic,None,2024-06-22,Completed
+PT0077,SITE08,Placebo,34,Female,Caucasian,"COPD, Asthma, Obesity, Depression, Arthritis",2024-12-29,Completed
+PT0078,SITE07,Treatment,48,Male,African American,"Anxiety, Hyperlipidemia",2024-10-04,Completed
+PT0079,SITE03,Treatment,43,Female,Asian,None,2024-07-12,Completed
+PT0080,SITE09,Treatment,41,Male,Caucasian,"Diabetes, Arthritis",2024-09-06,Lost to Follow-up
+PT0081,SITE05,Placebo,54,Male,Caucasian,"Depression, Diabetes, Arthritis, COPD",2024-07-01,Withdrawn
+PT0082,SITE09,Treatment,56,Female,African American,"Hyperlipidemia, Obesity, COPD, Arthritis",2024-11-05,Completed
+PT0083,SITE07,Treatment,37,Female,Hispanic,None,2024-09-20,Completed
+PT0084,SITE07,Treatment,36,Female,Hispanic,"Diabetes, Arthritis, COPD, Anxiety",2025-02-02,Completed
+PT0085,SITE06,Treatment,40,Female,Hispanic,None,2024-09-30,Completed
+PT0086,SITE02,Treatment,18,Female,Caucasian,"COPD, Diabetes, Obesity, Hypertension",2025-02-28,Ongoing
+PT0087,SITE09,Placebo,22,Female,Hispanic,"Asthma, Arthritis, Diabetes, Anxiety",2025-03-21,Ongoing
+PT0088,SITE06,Treatment,65,Female,Caucasian,"Diabetes, Arthritis, COPD",2024-12-24,Withdrawn
+PT0089,SITE08,Placebo,69,Male,Caucasian,"Anxiety, Depression, Arthritis",2024-09-18,Ongoing
+PT0090,SITE01,Treatment,41,Female,Caucasian,"Depression, Anxiety",2025-03-05,Completed
+PT0091,SITE05,Treatment,53,Male,Caucasian,None,2024-07-26,Ongoing
+PT0092,SITE01,Placebo,49,Female,Caucasian,COPD,2024-07-27,Completed
+PT0093,SITE10,Placebo,85,Female,Caucasian,Depression,2025-03-18,Completed
+PT0094,SITE08,Treatment,61,Male,African American,"Arthritis, Obesity, COPD, Hypertension",2024-09-22,Completed
+PT0095,SITE08,Placebo,43,Female,Caucasian,"Obesity, Anxiety, COPD",2024-12-15,Completed
+PT0096,SITE01,Treatment,30,Female,Caucasian,None,2024-11-26,Completed
+PT0097,SITE09,Treatment,20,Male,Caucasian,None,2025-01-05,Completed
+PT0098,SITE02,Treatment,48,Female,Caucasian,None,2025-03-04,Withdrawn
+PT0099,SITE09,Treatment,33,Female,Caucasian,"Obesity, Hyperlipidemia, Hypertension, Arthritis, COPD",2024-06-16,Completed
+PT0100,SITE01,Treatment,23,Female,Caucasian,None,2024-07-31,Completed
+PT0101,SITE10,Treatment,35,Male,African American,"Depression, Hypertension, Asthma, Obesity",2024-07-24,Completed
+PT0102,SITE09,Treatment,28,Female,African American,"COPD, Depression, Hypertension",2024-11-15,Ongoing
+PT0103,SITE04,Treatment,70,Female,African American,"Depression, Anxiety, Asthma",2024-06-26,Completed
+PT0104,SITE09,Treatment,58,Female,Caucasian,"Anxiety, Depression, Diabetes, Arthritis",2024-08-04,Lost to Follow-up
+PT0105,SITE07,Placebo,44,Female,Caucasian,Depression,2024-09-08,Withdrawn
+PT0106,SITE06,Treatment,67,Male,Hispanic,"Hyperlipidemia, Anxiety, Depression, Asthma",2024-08-13,Completed
+PT0107,SITE05,Treatment,46,Male,Caucasian,Hyperlipidemia,2024-12-09,Ongoing
+PT0108,SITE09,Placebo,32,Female,Caucasian,"Depression, Hypertension, COPD, Hyperlipidemia, Arthritis",2024-11-18,Completed
+PT0109,SITE02,Treatment,67,Female,Caucasian,"Asthma, Obesity, COPD, Hypertension",2025-02-28,Completed
+PT0110,SITE02,Treatment,53,Male,Caucasian,"Hyperlipidemia, Obesity, Hypertension",2024-12-04,Ongoing
+PT0111,SITE09,Treatment,29,Male,Caucasian,"Diabetes, Asthma, Arthritis, Obesity",2024-06-23,Completed
+PT0112,SITE03,Treatment,42,Female,Caucasian,None,2024-11-28,Completed
+PT0113,SITE08,Placebo,31,Male,Caucasian,"Hyperlipidemia, Hypertension, COPD, Arthritis",2024-09-16,Completed
+PT0114,SITE09,Placebo,24,Female,Caucasian,Anxiety,2024-11-09,Completed
+PT0115,SITE08,Treatment,58,Male,African American,"Anxiety, Diabetes, Hyperlipidemia",2024-12-23,Withdrawn
+PT0116,SITE04,Placebo,73,Male,Hispanic,"Anxiety, Hypertension, Obesity, COPD",2024-08-17,Completed
+PT0117,SITE01,Placebo,24,Male,Hispanic,None,2024-06-16,Ongoing
+PT0118,SITE04,Treatment,53,Male,African American,"Depression, COPD",2024-09-04,Completed
+PT0119,SITE09,Placebo,35,Female,Asian,"Asthma, Anxiety, Diabetes, Hyperlipidemia",2024-10-25,Ongoing
+PT0120,SITE02,Treatment,37,Male,Caucasian,"COPD, Hypertension",2024-06-02,Completed
+PT0121,SITE03,Placebo,36,Male,Caucasian,"Hyperlipidemia, Asthma, Diabetes, Anxiety, Obesity",2024-06-10,Completed
+PT0122,SITE10,Placebo,32,Female,Caucasian,"Hyperlipidemia, Obesity, Depression",2024-10-03,Withdrawn
+PT0123,SITE08,Treatment,45,Male,African American,Diabetes,2024-08-20,Completed
+PT0124,SITE06,Treatment,32,Male,Asian,COPD,2024-10-18,Completed
+PT0125,SITE08,Treatment,49,Female,Caucasian,"Diabetes, Hyperlipidemia, Obesity",2024-10-28,Completed
+PT0126,SITE07,Treatment,44,Male,Asian,None,2025-03-15,Ongoing
+PT0127,SITE05,Placebo,41,Female,Caucasian,None,2024-10-07,Completed
+PT0128,SITE09,Placebo,31,Female,Asian,"COPD, Hypertension",2025-01-25,Withdrawn
+PT0129,SITE04,Treatment,36,Female,Caucasian,Hypertension,2024-07-28,Completed
+PT0130,SITE06,Treatment,56,Female,Caucasian,"Hyperlipidemia, Anxiety, Asthma, Arthritis, Hypertension",2024-12-15,Completed
+PT0131,SITE02,Treatment,52,Male,Caucasian,"Depression, Hypertension, COPD, Diabetes, Obesity",2024-12-28,Ongoing
+PT0132,SITE02,Treatment,30,Female,Caucasian,"Diabetes, Obesity, Anxiety, Depression, Hyperlipidemia",2024-07-15,Ongoing
+PT0133,SITE02,Treatment,46,Male,Caucasian,"Anxiety, Diabetes, Arthritis, Asthma",2024-09-05,Withdrawn
+PT0134,SITE10,Treatment,56,Male,Caucasian,"Anxiety, Asthma",2025-03-06,Lost to Follow-up
+PT0135,SITE07,Placebo,19,Male,Hispanic,"Hyperlipidemia, Diabetes, Depression",2024-06-23,Completed
+PT0136,SITE02,Treatment,53,Male,Caucasian,Depression,2024-07-14,Completed
+PT0137,SITE02,Treatment,35,Male,Caucasian,"Depression, Obesity, Asthma",2024-06-27,Completed
+PT0138,SITE09,Placebo,53,Male,African American,"COPD, Depression, Hypertension",2025-03-09,Ongoing
+PT0139,SITE07,Treatment,33,Male,African American,"Diabetes, Asthma, COPD, Anxiety",2024-09-05,Withdrawn
+PT0140,SITE03,Placebo,18,Male,Caucasian,"Depression, Diabetes, COPD, Hyperlipidemia",2024-07-06,Completed
+PT0141,SITE03,Placebo,20,Male,Caucasian,"Hypertension, Asthma, Diabetes, Depression, Arthritis",2024-09-17,Completed
+PT0142,SITE07,Treatment,45,Male,Caucasian,Diabetes,2024-07-25,Completed
+PT0143,SITE05,Treatment,48,Female,Caucasian,Asthma,2024-12-09,Withdrawn
+PT0144,SITE10,Treatment,31,Female,African American,"Asthma, Obesity",2025-01-05,Completed
+PT0145,SITE06,Treatment,54,Female,Caucasian,Asthma,2024-12-02,Completed
+PT0146,SITE08,Treatment,20,Male,Caucasian,None,2024-08-08,Completed
+PT0147,SITE09,Treatment,44,Female,African American,"Depression, COPD, Diabetes, Anxiety",2024-10-08,Withdrawn
+PT0148,SITE01,Treatment,26,Female,Caucasian,"Hyperlipidemia, Obesity, Hypertension",2024-07-25,Ongoing
+PT0149,SITE03,Treatment,35,Female,Caucasian,"Hyperlipidemia, Obesity, COPD",2024-09-05,Ongoing
+PT0150,SITE07,Treatment,45,Male,Caucasian,"Anxiety, COPD",2024-08-26,Completed
+PT0151,SITE06,Placebo,32,Male,Asian,"Diabetes, Depression, Anxiety, Arthritis",2025-03-21,Completed
+PT0152,SITE07,Treatment,39,Male,Caucasian,"Obesity, Diabetes, Hypertension, Arthritis, Anxiety",2024-09-27,Ongoing
+PT0153,SITE08,Treatment,60,Male,Hispanic,None,2024-12-25,Lost to Follow-up
+PT0154,SITE06,Treatment,36,Female,Caucasian,"Depression, Diabetes, Hyperlipidemia, Asthma",2024-11-01,Completed
+PT0155,SITE03,Placebo,57,Female,Caucasian,Hyperlipidemia,2024-07-05,Completed
+PT0156,SITE02,Treatment,28,Female,African American,"Depression, Hyperlipidemia, Asthma, Obesity",2024-08-18,Completed
+PT0157,SITE07,Treatment,52,Female,Asian,"Asthma, Obesity, Hyperlipidemia, Diabetes, Anxiety",2024-08-06,Completed
+PT0158,SITE01,Placebo,66,Male,African American,"Obesity, Hyperlipidemia, Hypertension",2024-07-04,Withdrawn
+PT0159,SITE03,Treatment,18,Male,Hispanic,"Diabetes, Obesity, Hyperlipidemia, Asthma, Arthritis",2024-09-05,Completed
+PT0160,SITE04,Placebo,33,Male,Asian,None,2024-11-16,Completed
+PT0161,SITE01,Treatment,53,Female,Caucasian,None,2024-11-16,Completed
+PT0162,SITE05,Treatment,41,Male,Caucasian,"Asthma, Hypertension, Hyperlipidemia, Obesity, Arthritis",2024-10-29,Completed
+PT0163,SITE10,Treatment,50,Male,African American,"Depression, Asthma, Arthritis, COPD",2024-08-10,Completed
+PT0164,SITE03,Treatment,35,Female,Caucasian,"Depression, Obesity",2024-06-03,Completed
+PT0165,SITE02,Treatment,46,Female,Hispanic,"Asthma, Anxiety, Hypertension, Depression",2024-07-02,Completed
+PT0166,SITE03,Placebo,42,Male,Asian,"Depression, Hyperlipidemia, Anxiety",2025-03-14,Ongoing
+PT0167,SITE08,Treatment,62,Male,Caucasian,Obesity,2024-08-21,Completed
+PT0168,SITE06,Treatment,48,Male,Caucasian,Diabetes,2024-07-13,Completed
+PT0169,SITE07,Treatment,50,Male,Hispanic,"Depression, Diabetes, Anxiety",2024-09-13,Lost to Follow-up
+PT0170,SITE06,Treatment,38,Male,Caucasian,None,2024-06-01,Ongoing
+PT0171,SITE06,Treatment,37,Male,Hispanic,None,2024-07-31,Ongoing
+PT0172,SITE03,Treatment,38,Female,Caucasian,"Hyperlipidemia, Diabetes, Arthritis, Hypertension",2025-02-25,Completed
+PT0173,SITE08,Treatment,50,Female,African American,Depression,2024-11-27,Completed
+PT0174,SITE07,Treatment,38,Female,Caucasian,"Arthritis, Hypertension, Anxiety, Depression",2025-01-10,Completed
+PT0175,SITE07,Treatment,49,Male,African American,None,2024-06-06,Completed
+PT0176,SITE06,Treatment,76,Female,Caucasian,"COPD, Depression",2024-09-11,Completed
+PT0177,SITE05,Treatment,58,Male,Caucasian,"Diabetes, Anxiety",2024-06-10,Withdrawn
+PT0178,SITE10,Treatment,40,Male,Caucasian,"Diabetes, Depression, Arthritis",2024-08-10,Completed
+PT0179,SITE08,Placebo,63,Female,African American,"Anxiety, Asthma, Arthritis, COPD, Depression",2024-08-29,Completed
+PT0180,SITE05,Treatment,38,Male,Hispanic,"COPD, Depression, Hyperlipidemia, Arthritis, Obesity",2025-01-12,Completed
+PT0181,SITE09,Treatment,18,Male,Caucasian,"Hypertension, Asthma, COPD, Hyperlipidemia",2024-11-05,Completed
+PT0182,SITE09,Treatment,29,Female,Caucasian,"Arthritis, Diabetes, Hyperlipidemia, Hypertension",2025-01-14,Ongoing
+PT0183,SITE01,Placebo,18,Female,Caucasian,None,2024-10-04,Completed
+PT0184,SITE06,Placebo,39,Female,African American,None,2024-12-26,Ongoing
+PT0185,SITE07,Treatment,45,Male,African American,"Obesity, Depression",2024-09-05,Lost to Follow-up
+PT0186,SITE03,Treatment,70,Female,Caucasian,"Anxiety, Depression, Arthritis",2024-08-13,Completed
+PT0187,SITE07,Placebo,49,Female,Caucasian,None,2024-09-23,Completed
+PT0188,SITE07,Treatment,41,Male,Caucasian,Hypertension,2024-12-08,Withdrawn
+PT0189,SITE02,Treatment,57,Female,Caucasian,"Anxiety, COPD, Arthritis",2024-11-17,Ongoing
+PT0190,SITE07,Treatment,18,Female,Caucasian,"Hypertension, Asthma, Anxiety, COPD",2024-12-21,Completed
+PT0191,SITE01,Treatment,48,Female,Other,"Anxiety, Depression, Diabetes",2024-07-26,Withdrawn
+PT0192,SITE05,Placebo,56,Male,Caucasian,"Asthma, Hyperlipidemia, Arthritis, Obesity",2024-12-25,Completed
+PT0193,SITE09,Placebo,22,Male,African American,"Hypertension, Hyperlipidemia, Anxiety",2024-07-11,Withdrawn
+PT0194,SITE07,Treatment,62,Male,Caucasian,"Anxiety, Arthritis, Diabetes, Hypertension",2024-07-02,Completed
+PT0195,SITE07,Treatment,50,Male,Caucasian,None,2024-06-15,Completed
+PT0196,SITE02,Treatment,38,Female,African American,"Anxiety, Depression, COPD, Hypertension, Hyperlipidemia",2024-08-01,Withdrawn
+PT0197,SITE08,Placebo,54,Male,African American,None,2024-11-02,Completed
+PT0198,SITE03,Placebo,79,Male,Other,"Diabetes, Obesity",2025-03-11,Completed
+PT0199,SITE08,Placebo,47,Female,Caucasian,"Obesity, Asthma",2024-12-26,Completed
+PT0200,SITE03,Placebo,48,Female,Caucasian,Asthma,2024-12-04,Lost to Follow-up
+PT0201,SITE10,Treatment,38,Female,African American,"Anxiety, Obesity, COPD",2024-10-08,Withdrawn
+PT0202,SITE07,Treatment,32,Male,Caucasian,None,2024-10-05,Ongoing
+PT0203,SITE02,Treatment,57,Male,Caucasian,None,2025-03-19,Completed
+PT0204,SITE04,Placebo,32,Male,Caucasian,"Asthma, Hyperlipidemia, Anxiety, COPD, Arthritis",2024-09-22,Withdrawn
+PT0205,SITE06,Treatment,46,Female,Caucasian,"Arthritis, Hypertension",2024-12-16,Completed
+PT0206,SITE09,Treatment,37,Female,Asian,"COPD, Asthma, Anxiety, Hypertension",2024-06-13,Completed
+PT0207,SITE05,Treatment,52,Male,Caucasian,Asthma,2025-02-26,Ongoing
+PT0208,SITE09,Treatment,50,Female,Caucasian,"Hyperlipidemia, Depression",2024-08-28,Completed
+PT0209,SITE05,Treatment,60,Female,Caucasian,"Anxiety, Obesity",2025-01-01,Completed
+PT0210,SITE10,Treatment,37,Female,Caucasian,Hyperlipidemia,2025-03-05,Completed
+PT0211,SITE08,Treatment,40,Male,Caucasian,"COPD, Asthma, Hypertension",2024-12-20,Completed
+PT0212,SITE01,Treatment,30,Female,Caucasian,"Obesity, Asthma, Diabetes, Hypertension",2024-08-13,Withdrawn
+PT0213,SITE07,Treatment,38,Female,Caucasian,"Hypertension, Arthritis, Obesity, Diabetes, Anxiety",2024-06-25,Completed
+PT0214,SITE04,Treatment,50,Male,Hispanic,"Diabetes, Obesity, Hyperlipidemia",2024-09-09,Ongoing
+PT0215,SITE05,Placebo,56,Male,Caucasian,Hyperlipidemia,2024-11-23,Completed
+PT0216,SITE06,Treatment,31,Female,Caucasian,"Depression, Hypertension, Diabetes, Arthritis, COPD",2024-09-25,Completed
+PT0217,SITE05,Treatment,58,Female,Asian,"Arthritis, COPD, Anxiety, Hyperlipidemia, Diabetes",2024-11-13,Completed
+PT0218,SITE01,Placebo,65,Male,African American,"Anxiety, COPD, Arthritis, Depression, Obesity",2024-07-11,Ongoing
+PT0219,SITE09,Treatment,51,Male,Caucasian,"Diabetes, COPD",2024-09-28,Ongoing
+PT0220,SITE02,Placebo,73,Female,Caucasian,"COPD, Depression, Obesity",2024-09-05,Withdrawn
+PT0221,SITE09,Treatment,33,Female,Caucasian,COPD,2024-10-23,Ongoing
+PT0222,SITE10,Treatment,26,Female,African American,"Diabetes, Asthma, Hypertension, Obesity",2025-01-02,Completed
+PT0223,SITE02,Treatment,18,Female,Other,None,2025-01-15,Ongoing
+PT0224,SITE09,Treatment,67,Male,African American,None,2024-10-08,Withdrawn
+PT0225,SITE06,Treatment,54,Female,Caucasian,"Anxiety, COPD, Depression",2024-10-15,Ongoing
+PT0226,SITE09,Treatment,44,Female,African American,"Obesity, Depression, Hyperlipidemia",2025-02-28,Completed
+PT0227,SITE06,Placebo,49,Male,Caucasian,None,2024-09-25,Completed
+PT0228,SITE06,Treatment,28,Female,Caucasian,"Anxiety, Hyperlipidemia, Obesity, Hypertension, Asthma",2024-09-02,Ongoing
+PT0229,SITE02,Placebo,81,Male,Caucasian,None,2024-11-15,Ongoing
+PT0230,SITE08,Treatment,46,Female,Asian,None,2024-12-20,Completed
+PT0231,SITE03,Placebo,46,Female,Caucasian,None,2024-10-27,Withdrawn
+PT0232,SITE07,Treatment,55,Male,African American,"Anxiety, Obesity",2024-11-30,Lost to Follow-up
+PT0233,SITE05,Treatment,52,Male,Caucasian,"Hypertension, Depression",2024-10-30,Completed
+PT0234,SITE03,Treatment,48,Female,Caucasian,"COPD, Obesity, Arthritis, Diabetes, Hyperlipidemia",2024-08-13,Withdrawn
+PT0235,SITE01,Treatment,33,Female,Caucasian,"Asthma, Depression",2025-03-01,Completed
+PT0236,SITE08,Placebo,52,Female,Caucasian,"Obesity, Diabetes",2024-07-12,Completed
+PT0237,SITE03,Treatment,73,Male,Hispanic,"Hyperlipidemia, Arthritis, Obesity, COPD, Diabetes",2024-12-29,Completed
+PT0238,SITE02,Treatment,65,Female,Caucasian,"Obesity, Arthritis, Hyperlipidemia, Hypertension, COPD",2024-09-09,Completed
+PT0239,SITE01,Treatment,68,Male,African American,"Depression, Hypertension, Diabetes, COPD, Asthma",2024-07-15,Withdrawn
+PT0240,SITE04,Treatment,37,Male,Hispanic,"COPD, Asthma, Anxiety",2024-08-21,Completed
+PT0241,SITE08,Placebo,30,Female,Asian,"Asthma, Hyperlipidemia, Arthritis, COPD",2024-06-17,Completed
+PT0242,SITE03,Placebo,43,Male,Caucasian,"Arthritis, Obesity, Depression, Asthma",2024-08-12,Completed
+PT0243,SITE01,Placebo,45,Female,Caucasian,"Anxiety, Depression",2024-06-14,Completed
+PT0244,SITE04,Treatment,61,Female,Caucasian,COPD,2024-11-04,Completed
+PT0245,SITE09,Treatment,19,Female,Other,"Diabetes, Hypertension, Depression",2025-01-09,Ongoing
+PT0246,SITE01,Placebo,67,Female,Asian,COPD,2024-10-10,Completed
+PT0247,SITE02,Treatment,42,Female,Caucasian,"Anxiety, Depression, Hypertension, Diabetes, Arthritis",2024-07-17,Withdrawn
+PT0248,SITE09,Placebo,38,Male,Hispanic,None,2024-09-15,Withdrawn
+PT0249,SITE02,Placebo,29,Male,Caucasian,"Obesity, Arthritis",2024-09-16,Completed
+PT0250,SITE03,Placebo,20,Female,African American,"Obesity, Asthma, Arthritis, Hyperlipidemia, Depression",2025-02-20,Withdrawn
+PT0251,SITE07,Treatment,57,Female,Caucasian,"Depression, Diabetes, Anxiety, Asthma",2024-12-22,Completed
+PT0252,SITE03,Treatment,46,Male,Hispanic,"Asthma, Obesity, COPD",2024-08-18,Completed
+PT0253,SITE09,Placebo,25,Male,Caucasian,"Arthritis, Hyperlipidemia, Hypertension, Anxiety, Depression",2024-11-02,Completed
+PT0254,SITE06,Treatment,25,Male,Hispanic,"Arthritis, Depression, Anxiety",2025-02-26,Completed
+PT0255,SITE03,Treatment,39,Male,Hispanic,None,2025-02-02,Completed
+PT0256,SITE09,Treatment,70,Female,African American,Anxiety,2024-06-19,Ongoing
+PT0257,SITE01,Placebo,41,Female,Caucasian,"Obesity, Arthritis, Diabetes",2024-06-26,Completed
+PT0258,SITE10,Treatment,22,Male,Caucasian,"Depression, COPD",2025-01-03,Ongoing
+PT0259,SITE03,Treatment,41,Female,Caucasian,Hyperlipidemia,2024-11-01,Completed
+PT0260,SITE01,Treatment,40,Male,Caucasian,"Arthritis, COPD, Depression, Obesity, Hyperlipidemia",2024-11-01,Ongoing
+PT0261,SITE02,Treatment,18,Female,Caucasian,Diabetes,2024-11-21,Completed
+PT0262,SITE08,Placebo,44,Male,Asian,"Arthritis, Obesity, Asthma",2024-08-31,Completed
+PT0263,SITE07,Treatment,41,Female,Caucasian,Hyperlipidemia,2024-11-28,Completed
+PT0264,SITE02,Treatment,55,Male,Caucasian,"COPD, Depression, Hypertension",2024-10-09,Completed
+PT0265,SITE02,Placebo,72,Male,Caucasian,"COPD, Hypertension, Hyperlipidemia",2025-03-25,Completed
+PT0266,SITE09,Placebo,61,Female,Caucasian,"Obesity, Asthma",2025-03-02,Withdrawn
+PT0267,SITE06,Treatment,40,Male,African American,None,2025-02-28,Completed
+PT0268,SITE05,Placebo,28,Female,Caucasian,Obesity,2024-08-15,Ongoing
+PT0269,SITE10,Treatment,83,Female,Asian,"Hyperlipidemia, Obesity, Diabetes",2024-11-24,Ongoing
+PT0270,SITE06,Treatment,45,Male,Caucasian,None,2024-12-01,Withdrawn
+PT0271,SITE09,Placebo,45,Female,Other,"Arthritis, Asthma, Diabetes, Hyperlipidemia",2024-10-09,Completed
+PT0272,SITE07,Placebo,44,Female,Hispanic,None,2024-07-19,Completed
+PT0273,SITE10,Placebo,47,Female,Caucasian,Asthma,2024-07-25,Withdrawn
+PT0274,SITE10,Placebo,42,Female,Asian,"COPD, Obesity",2024-11-01,Ongoing
+PT0275,SITE09,Treatment,36,Female,Caucasian,"COPD, Depression, Diabetes",2024-12-17,Completed
+PT0276,SITE04,Treatment,36,Male,Hispanic,"Diabetes, Hypertension, Obesity, Asthma",2024-09-26,Completed
+PT0277,SITE02,Placebo,44,Female,Caucasian,None,2025-02-18,Completed
+PT0278,SITE08,Treatment,36,Female,Asian,"Hypertension, Asthma, Arthritis, Obesity",2024-07-16,Completed
+PT0279,SITE04,Placebo,34,Female,Hispanic,None,2024-12-06,Ongoing
+PT0280,SITE09,Placebo,46,Female,Hispanic,"Hyperlipidemia, Depression, COPD, Obesity, Arthritis",2024-10-07,Completed
+PT0281,SITE04,Placebo,41,Female,Hispanic,"Anxiety, Depression, Hyperlipidemia",2024-07-19,Completed
+PT0282,SITE08,Treatment,67,Male,Caucasian,"Diabetes, Hypertension, Hyperlipidemia, Depression, COPD",2024-06-25,Completed
+PT0283,SITE09,Treatment,18,Female,Caucasian,None,2025-02-21,Completed
+PT0284,SITE09,Treatment,61,Male,Caucasian,None,2024-09-26,Ongoing
+PT0285,SITE10,Treatment,63,Male,Caucasian,"Arthritis, Depression, COPD, Hyperlipidemia, Anxiety",2024-10-22,Withdrawn
+PT0286,SITE04,Treatment,18,Male,African American,Obesity,2024-12-17,Completed
+PT0287,SITE01,Treatment,39,Male,Caucasian,None,2024-11-04,Withdrawn
+PT0288,SITE03,Treatment,39,Female,Other,"Asthma, COPD, Hyperlipidemia, Anxiety",2024-10-12,Completed
+PT0289,SITE09,Treatment,23,Male,African American,"Asthma, COPD",2024-10-26,Completed
+PT0290,SITE04,Treatment,33,Male,Hispanic,"COPD, Diabetes",2024-08-10,Completed
+PT0291,SITE05,Treatment,28,Female,Caucasian,Asthma,2025-01-19,Completed
+PT0292,SITE07,Treatment,71,Female,Hispanic,None,2025-03-26,Completed
+PT0293,SITE05,Placebo,59,Female,Asian,"Arthritis, Diabetes",2024-11-01,Completed
+PT0294,SITE04,Treatment,64,Male,Caucasian,None,2024-08-29,Withdrawn
+PT0295,SITE02,Treatment,55,Female,African American,"Obesity, Arthritis, Diabetes, COPD",2024-12-16,Completed
+PT0296,SITE02,Treatment,28,Female,Hispanic,Depression,2024-11-08,Ongoing
+PT0297,SITE04,Placebo,37,Male,Caucasian,"Asthma, Arthritis, COPD",2024-06-26,Completed
+PT0298,SITE10,Treatment,52,Female,Caucasian,"Hypertension, COPD, Diabetes",2024-09-29,Withdrawn
+PT0299,SITE10,Treatment,26,Female,Caucasian,"Hypertension, Hyperlipidemia",2024-12-29,Ongoing
+PT0300,SITE09,Treatment,55,Female,Caucasian,"Anxiety, Depression, Asthma, Obesity, Diabetes",2024-08-02,Completed
+PT0301,SITE08,Treatment,41,Female,Caucasian,None,2024-08-07,Ongoing
+PT0302,SITE03,Treatment,39,Male,Caucasian,"Asthma, Anxiety, Hyperlipidemia",2025-02-08,Completed
+PT0303,SITE09,Treatment,55,Female,Caucasian,Diabetes,2024-06-02,Ongoing
+PT0304,SITE05,Treatment,51,Female,Caucasian,"Asthma, Obesity, Hypertension",2024-09-16,Completed
+PT0305,SITE03,Placebo,39,Male,Asian,"Asthma, Hyperlipidemia",2025-03-13,Ongoing
+PT0306,SITE05,Placebo,62,Female,Caucasian,"Hyperlipidemia, COPD, Diabetes, Arthritis, Depression",2024-07-19,Ongoing
+PT0307,SITE10,Treatment,28,Male,Asian,"Depression, Hyperlipidemia, Anxiety, Asthma, COPD",2024-10-18,Completed
+PT0308,SITE04,Treatment,54,Female,Caucasian,Depression,2025-01-04,Completed
+PT0309,SITE08,Placebo,53,Male,Caucasian,"Asthma, Hyperlipidemia",2024-07-14,Withdrawn
+PT0310,SITE05,Treatment,40,Male,Caucasian,"Hypertension, Obesity",2025-02-24,Completed
+PT0311,SITE10,Treatment,49,Male,Caucasian,"Asthma, Arthritis, Hypertension, Anxiety, Hyperlipidemia",2024-08-17,Completed
+PT0312,SITE08,Treatment,26,Male,Caucasian,None,2025-01-02,Completed
+PT0313,SITE09,Treatment,58,Female,African American,"COPD, Diabetes, Hypertension, Obesity",2024-09-06,Completed
+PT0314,SITE04,Placebo,42,Male,Caucasian,"Hyperlipidemia, Arthritis, Depression, COPD, Asthma",2025-01-22,Lost to Follow-up
+PT0315,SITE07,Placebo,37,Female,African American,"Hyperlipidemia, COPD, Depression, Arthritis",2025-03-09,Completed
+PT0316,SITE02,Treatment,60,Male,African American,"Anxiety, Diabetes, Hypertension, Obesity, Arthritis",2024-10-27,Completed
+PT0317,SITE06,Treatment,34,Male,Caucasian,"COPD, Diabetes",2024-08-05,Ongoing
+PT0318,SITE08,Treatment,23,Male,Caucasian,"Diabetes, Arthritis",2025-01-20,Withdrawn
+PT0319,SITE07,Treatment,21,Female,Hispanic,"Obesity, Depression, Asthma, COPD, Hypertension",2024-08-26,Completed
+PT0320,SITE07,Treatment,54,Male,Caucasian,"COPD, Hypertension",2024-08-18,Completed
+PT0321,SITE08,Treatment,25,Female,Caucasian,"COPD, Anxiety, Hypertension",2024-12-22,Withdrawn
+PT0322,SITE07,Placebo,71,Female,Other,"Depression, COPD",2025-03-06,Ongoing
+PT0323,SITE05,Treatment,18,Female,Caucasian,"Obesity, Hypertension",2025-02-09,Completed
+PT0324,SITE07,Treatment,70,Female,African American,Diabetes,2024-10-08,Completed
+PT0325,SITE10,Placebo,48,Female,Other,Hyperlipidemia,2024-08-23,Completed
+PT0326,SITE03,Placebo,43,Female,Caucasian,None,2025-03-03,Completed
+PT0327,SITE05,Treatment,36,Female,Caucasian,"COPD, Arthritis",2024-12-04,Completed
+PT0328,SITE07,Treatment,50,Female,Caucasian,None,2024-07-16,Withdrawn
+PT0329,SITE09,Treatment,44,Female,Caucasian,"Obesity, Asthma, COPD",2024-11-30,Completed
+PT0330,SITE02,Treatment,61,Male,Caucasian,"Arthritis, COPD, Hyperlipidemia",2025-02-23,Ongoing
+PT0331,SITE04,Treatment,46,Male,African American,"Obesity, Arthritis, Hyperlipidemia, Hypertension, Depression",2025-03-23,Completed
+PT0332,SITE07,Placebo,47,Male,Caucasian,None,2024-09-08,Ongoing
+PT0333,SITE01,Treatment,39,Male,Caucasian,"Hypertension, Arthritis, Depression, Obesity, Asthma",2024-08-17,Ongoing
+PT0334,SITE02,Treatment,44,Male,Other,"Hyperlipidemia, Arthritis, Asthma",2025-02-27,Completed
+PT0335,SITE09,Treatment,49,Female,Hispanic,"COPD, Diabetes, Hyperlipidemia, Hypertension, Anxiety",2024-11-09,Completed
+PT0336,SITE10,Treatment,19,Female,African American,None,2024-07-14,Completed
+PT0337,SITE07,Placebo,24,Female,Caucasian,"Anxiety, Arthritis",2025-01-24,Withdrawn
+PT0338,SITE10,Placebo,56,Female,African American,None,2024-10-12,Withdrawn
+PT0339,SITE07,Treatment,47,Female,Caucasian,"Asthma, Diabetes, Anxiety, Hypertension",2024-12-09,Completed
+PT0340,SITE06,Treatment,42,Female,Caucasian,Hypertension,2025-03-05,Completed
+PT0341,SITE03,Treatment,45,Female,Caucasian,"Depression, Arthritis",2024-06-18,Completed
+PT0342,SITE10,Treatment,50,Male,Asian,"Hyperlipidemia, Obesity",2024-06-12,Ongoing
+PT0343,SITE03,Treatment,36,Male,Caucasian,"Asthma, Diabetes, Anxiety",2024-11-27,Completed
+PT0344,SITE02,Treatment,33,Male,Caucasian,"Depression, Hypertension, Hyperlipidemia, Asthma, Obesity",2024-10-01,Completed
+PT0345,SITE06,Treatment,47,Male,Caucasian,"Hyperlipidemia, Hypertension, Arthritis",2025-02-01,Completed
+PT0346,SITE04,Treatment,30,Female,Caucasian,None,2025-01-08,Completed
+PT0347,SITE05,Treatment,51,Female,Hispanic,None,2024-07-21,Ongoing
+PT0348,SITE03,Treatment,19,Female,African American,Asthma,2024-08-10,Completed
+PT0349,SITE06,Treatment,60,Male,Hispanic,None,2024-07-18,Ongoing
+PT0350,SITE03,Treatment,52,Female,Caucasian,Hyperlipidemia,2024-06-19,Completed
+PT0351,SITE08,Treatment,48,Female,Caucasian,"Asthma, Anxiety, Obesity",2025-02-17,Completed
+PT0352,SITE09,Placebo,59,Female,Caucasian,"Depression, Anxiety, Obesity",2024-08-23,Ongoing
+PT0353,SITE04,Treatment,69,Male,Caucasian,"Asthma, COPD, Diabetes, Arthritis, Anxiety",2024-11-02,Lost to Follow-up
+PT0354,SITE09,Treatment,60,Female,Caucasian,"Hypertension, Arthritis, Asthma, Depression",2024-07-23,Ongoing
+PT0355,SITE07,Treatment,18,Male,Hispanic,None,2024-09-15,Completed
+PT0356,SITE03,Treatment,25,Male,Caucasian,"Hypertension, Obesity, Asthma, Diabetes",2024-10-13,Completed
+PT0357,SITE07,Treatment,35,Male,Caucasian,"Arthritis, Asthma",2024-08-08,Withdrawn
+PT0358,SITE01,Treatment,45,Male,Caucasian,"Diabetes, Depression",2024-06-11,Completed
+PT0359,SITE03,Placebo,52,Female,Caucasian,"Hyperlipidemia, Anxiety, Asthma, Diabetes",2024-10-21,Completed
+PT0360,SITE06,Treatment,34,Male,Caucasian,"Arthritis, Asthma, Hyperlipidemia, Hypertension, Anxiety",2024-12-09,Withdrawn
+PT0361,SITE04,Treatment,47,Male,Other,"Anxiety, Asthma, Diabetes, Hyperlipidemia, Arthritis",2024-08-08,Withdrawn
+PT0362,SITE07,Treatment,33,Female,Hispanic,Obesity,2024-06-23,Lost to Follow-up
+PT0363,SITE03,Treatment,35,Female,Asian,None,2024-11-28,Withdrawn
+PT0364,SITE01,Treatment,23,Male,Caucasian,"COPD, Obesity, Hypertension",2025-03-20,Withdrawn
+PT0365,SITE09,Placebo,31,Female,Caucasian,"Obesity, COPD, Asthma, Hypertension",2024-06-09,Completed
+PT0366,SITE06,Treatment,24,Male,Caucasian,"Diabetes, Anxiety, Hyperlipidemia, COPD, Asthma",2025-02-26,Completed
+PT0367,SITE08,Placebo,30,Male,Caucasian,"Asthma, Diabetes, Obesity",2024-09-01,Completed
+PT0368,SITE03,Placebo,60,Male,Hispanic,None,2024-06-17,Completed
+PT0369,SITE08,Treatment,30,Male,Caucasian,"Obesity, Arthritis, Depression",2024-11-01,Completed
+PT0370,SITE02,Treatment,84,Female,Caucasian,None,2024-10-27,Completed
+PT0371,SITE04,Treatment,52,Male,Caucasian,None,2025-02-22,Completed
+PT0372,SITE03,Treatment,47,Female,Caucasian,"Arthritis, Hyperlipidemia",2024-09-14,Completed
+PT0373,SITE10,Treatment,32,Female,African American,None,2024-07-05,Completed
+PT0374,SITE01,Treatment,55,Female,Caucasian,None,2024-09-27,Completed
+PT0375,SITE07,Treatment,36,Female,Caucasian,COPD,2024-06-14,Completed
+PT0376,SITE10,Treatment,46,Male,Caucasian,"Hyperlipidemia, Diabetes",2024-06-14,Ongoing
+PT0377,SITE02,Placebo,83,Female,Caucasian,None,2025-02-21,Completed
+PT0378,SITE04,Treatment,43,Male,Hispanic,"Depression, Obesity, Hypertension, Anxiety",2024-10-18,Completed
+PT0379,SITE09,Placebo,62,Female,Asian,"Hypertension, Arthritis",2025-03-21,Ongoing
+PT0380,SITE06,Treatment,34,Female,Asian,None,2024-09-27,Completed
+PT0381,SITE08,Treatment,44,Male,Hispanic,"Arthritis, Asthma",2025-01-24,Completed
+PT0382,SITE02,Treatment,71,Male,Caucasian,"Hypertension, Depression, Hyperlipidemia",2024-07-04,Completed
+PT0383,SITE07,Treatment,35,Male,African American,"Anxiety, Asthma",2024-11-16,Completed
+PT0384,SITE06,Placebo,72,Female,Caucasian,"Obesity, Diabetes, Asthma, Hypertension, Depression",2024-06-10,Withdrawn
+PT0385,SITE09,Placebo,55,Female,Caucasian,"Asthma, Depression",2024-09-30,Completed
+PT0386,SITE07,Placebo,36,Male,Hispanic,"Anxiety, Hyperlipidemia",2024-10-23,Ongoing
+PT0387,SITE01,Treatment,54,Male,Caucasian,"Hypertension, Obesity",2025-01-09,Completed
+PT0388,SITE08,Treatment,59,Male,Asian,"Asthma, Depression, Obesity",2025-02-12,Completed
+PT0389,SITE10,Placebo,54,Male,Caucasian,Asthma,2025-02-23,Completed
+PT0390,SITE03,Placebo,21,Female,African American,"Hyperlipidemia, Asthma, Obesity, Arthritis",2024-06-04,Completed
+PT0391,SITE02,Placebo,34,Male,African American,"COPD, Asthma, Arthritis, Anxiety, Obesity",2024-09-14,Completed
+PT0392,SITE03,Treatment,41,Male,Asian,"Hypertension, Anxiety, Hyperlipidemia",2024-08-24,Completed
+PT0393,SITE06,Treatment,43,Male,African American,"Arthritis, Depression",2024-12-31,Completed
+PT0394,SITE03,Placebo,54,Male,African American,"Obesity, Hypertension, Asthma, COPD",2024-09-29,Ongoing
+PT0395,SITE10,Treatment,47,Female,Caucasian,"Hyperlipidemia, Anxiety, Arthritis, COPD, Obesity",2024-10-10,Completed
+PT0396,SITE05,Placebo,24,Male,Caucasian,"COPD, Anxiety",2024-12-14,Withdrawn
+PT0397,SITE06,Placebo,50,Female,Caucasian,Hypertension,2024-06-19,Ongoing
+PT0398,SITE08,Treatment,54,Male,African American,"Diabetes, Obesity, Arthritis",2024-10-08,Completed
+PT0399,SITE07,Placebo,53,Male,Caucasian,None,2024-06-12,Completed
+PT0400,SITE08,Placebo,61,Female,African American,Arthritis,2024-08-20,Completed
+PT0401,SITE03,Treatment,57,Male,Caucasian,None,2025-02-17,Ongoing
+PT0402,SITE04,Placebo,51,Female,Caucasian,None,2024-10-03,Completed
+PT0403,SITE06,Treatment,43,Female,African American,"Arthritis, COPD, Asthma, Diabetes, Depression",2025-02-22,Withdrawn
+PT0404,SITE07,Placebo,20,Male,Caucasian,"Diabetes, COPD, Hypertension, Asthma, Hyperlipidemia",2024-10-18,Completed
+PT0405,SITE09,Treatment,51,Female,Caucasian,"Hyperlipidemia, Hypertension, Arthritis, Diabetes",2024-06-02,Withdrawn
+PT0406,SITE01,Placebo,48,Female,Caucasian,None,2024-06-08,Completed
+PT0407,SITE08,Treatment,49,Female,Asian,Hypertension,2025-02-05,Withdrawn
+PT0408,SITE08,Treatment,25,Female,African American,"Diabetes, Obesity, COPD",2024-10-17,Completed
+PT0409,SITE06,Placebo,28,Female,Caucasian,"Obesity, Diabetes",2024-10-02,Completed
+PT0410,SITE04,Treatment,60,Female,Caucasian,Anxiety,2025-01-14,Completed
+PT0411,SITE03,Treatment,44,Female,Caucasian,None,2024-06-10,Completed
+PT0412,SITE03,Placebo,55,Female,Hispanic,"Arthritis, Hypertension",2024-12-29,Lost to Follow-up
+PT0413,SITE06,Placebo,45,Male,African American,"Depression, Arthritis, Diabetes, Hypertension, Anxiety",2024-09-20,Completed
+PT0414,SITE08,Treatment,45,Male,Caucasian,"Hyperlipidemia, COPD, Hypertension, Depression",2024-06-08,Completed
+PT0415,SITE07,Treatment,59,Female,Caucasian,"Anxiety, Hypertension, Hyperlipidemia, Depression",2025-03-19,Completed
+PT0416,SITE01,Treatment,37,Male,Caucasian,None,2025-02-08,Completed
+PT0417,SITE06,Treatment,46,Female,African American,"COPD, Arthritis",2024-06-14,Completed
+PT0418,SITE07,Treatment,38,Female,Hispanic,COPD,2025-01-26,Ongoing
+PT0419,SITE07,Treatment,38,Male,Caucasian,"Depression, Asthma, Hypertension",2025-01-28,Completed
+PT0420,SITE09,Placebo,40,Female,Caucasian,Depression,2024-10-27,Withdrawn
+PT0421,SITE10,Placebo,48,Female,Caucasian,"Arthritis, Anxiety, Diabetes",2025-01-22,Completed
+PT0422,SITE05,Placebo,37,Female,Asian,"Obesity, Diabetes, Depression, Arthritis, Hyperlipidemia",2024-11-14,Completed
+PT0423,SITE01,Treatment,63,Female,Caucasian,"Arthritis, Asthma",2024-06-20,Ongoing
+PT0424,SITE02,Treatment,31,Male,Hispanic,None,2025-01-02,Ongoing
+PT0425,SITE04,Treatment,42,Female,African American,None,2024-10-13,Completed
+PT0426,SITE05,Treatment,38,Female,Caucasian,Hypertension,2024-10-07,Ongoing
+PT0427,SITE09,Treatment,66,Female,Caucasian,None,2025-03-21,Completed
+PT0428,SITE01,Placebo,47,Male,Caucasian,"Asthma, Anxiety, COPD",2025-02-01,Completed
+PT0429,SITE03,Treatment,60,Female,African American,"Anxiety, Depression, Diabetes, COPD, Asthma",2024-12-06,Withdrawn
+PT0430,SITE05,Treatment,22,Male,Hispanic,"Arthritis, Asthma",2024-07-14,Completed
+PT0431,SITE03,Treatment,49,Male,African American,Arthritis,2024-08-25,Completed
+PT0432,SITE04,Placebo,58,Female,Caucasian,Anxiety,2024-07-14,Withdrawn
+PT0433,SITE03,Treatment,46,Female,Caucasian,Depression,2024-10-23,Lost to Follow-up
+PT0434,SITE04,Treatment,60,Male,Asian,"Diabetes, Arthritis, Anxiety, Hypertension, Asthma",2024-07-21,Completed
+PT0435,SITE01,Treatment,37,Female,Hispanic,None,2025-01-28,Completed
+PT0436,SITE08,Placebo,66,Male,Caucasian,"Asthma, Hypertension, Anxiety",2025-03-21,Completed
+PT0437,SITE04,Treatment,79,Male,Other,"COPD, Hyperlipidemia, Hypertension",2024-07-21,Withdrawn
+PT0438,SITE07,Placebo,39,Female,African American,"Obesity, Diabetes, Hypertension",2025-02-21,Withdrawn
+PT0439,SITE02,Placebo,38,Female,Caucasian,"Obesity, Diabetes, Hypertension, Anxiety",2024-09-28,Completed
+PT0440,SITE02,Treatment,66,Male,African American,"Obesity, Asthma, Hypertension",2024-12-17,Completed
+PT0441,SITE06,Treatment,68,Male,Hispanic,Hypertension,2025-02-03,Completed
+PT0442,SITE02,Placebo,37,Male,African American,None,2024-08-09,Ongoing
+PT0443,SITE06,Treatment,38,Male,Caucasian,"Hyperlipidemia, Diabetes",2024-07-27,Ongoing
+PT0444,SITE02,Treatment,40,Female,Caucasian,"Anxiety, Arthritis, Obesity",2024-07-09,Ongoing
+PT0445,SITE04,Placebo,24,Female,Asian,"Anxiety, Obesity, COPD",2025-03-16,Lost to Follow-up
+PT0446,SITE07,Placebo,31,Female,Caucasian,"COPD, Diabetes",2024-06-18,Completed
+PT0447,SITE08,Placebo,29,Female,Caucasian,Asthma,2025-01-06,Completed
+PT0448,SITE03,Placebo,33,Female,Caucasian,"Diabetes, Obesity, COPD, Anxiety, Hypertension",2025-01-30,Completed
+PT0449,SITE09,Treatment,44,Male,Caucasian,"Anxiety, Depression, Hypertension",2025-03-25,Completed
+PT0450,SITE02,Treatment,48,Female,African American,"Hyperlipidemia, Obesity",2025-03-10,Completed
+PT0451,SITE08,Placebo,68,Female,Asian,"Anxiety, COPD, Hypertension",2024-08-13,Completed
+PT0452,SITE08,Treatment,30,Female,Caucasian,"COPD, Arthritis, Depression",2024-09-18,Ongoing
+PT0453,SITE04,Treatment,59,Female,Caucasian,"Obesity, Asthma, Arthritis, Diabetes, Depression",2024-11-27,Withdrawn
+PT0454,SITE01,Placebo,41,Female,Caucasian,None,2024-07-02,Completed
+PT0455,SITE01,Treatment,44,Male,Asian,"Asthma, COPD, Hyperlipidemia, Arthritis",2025-01-20,Completed
+PT0456,SITE02,Treatment,55,Male,African American,None,2025-03-09,Completed
+PT0457,SITE09,Treatment,28,Male,Caucasian,"Arthritis, Anxiety, Depression",2024-06-25,Ongoing
+PT0458,SITE02,Treatment,50,Female,Hispanic,Asthma,2025-03-06,Ongoing
+PT0459,SITE02,Treatment,47,Male,Hispanic,"Depression, Anxiety, Hyperlipidemia",2025-01-12,Completed
+PT0460,SITE06,Treatment,52,Male,Hispanic,Arthritis,2024-07-27,Completed
+PT0461,SITE07,Treatment,49,Female,Asian,"Hypertension, Asthma, Hyperlipidemia, COPD",2024-11-27,Completed
+PT0462,SITE07,Treatment,81,Female,Caucasian,"Asthma, Diabetes, Hypertension, Arthritis, Obesity",2025-01-18,Completed
+PT0463,SITE09,Placebo,35,Female,Hispanic,None,2025-03-14,Completed
+PT0464,SITE06,Treatment,37,Male,Caucasian,"Arthritis, Obesity, Hypertension, Depression",2024-08-03,Withdrawn
+PT0465,SITE08,Placebo,35,Male,Hispanic,"Diabetes, Anxiety",2025-01-18,Withdrawn
+PT0466,SITE06,Treatment,36,Female,African American,"Asthma, Obesity, Diabetes, Depression, Hypertension",2025-03-16,Completed
+PT0467,SITE02,Treatment,35,Female,Hispanic,"Hypertension, Hyperlipidemia, Arthritis",2024-12-30,Ongoing
+PT0468,SITE01,Placebo,62,Male,African American,"Obesity, Diabetes",2025-02-13,Withdrawn
+PT0469,SITE05,Treatment,66,Male,Caucasian,"Diabetes, Hyperlipidemia, Hypertension, Anxiety, COPD",2024-06-18,Completed
+PT0470,SITE09,Placebo,36,Female,Caucasian,"Asthma, Depression, COPD, Obesity",2024-11-22,Completed
+PT0471,SITE08,Treatment,32,Female,Other,"Anxiety, Diabetes",2025-01-15,Withdrawn
+PT0472,SITE04,Placebo,52,Male,Asian,"Hypertension, Obesity",2025-01-12,Completed
+PT0473,SITE05,Treatment,36,Female,Caucasian,"Depression, Hyperlipidemia",2024-08-23,Withdrawn
+PT0474,SITE05,Placebo,54,Male,Caucasian,None,2025-03-18,Lost to Follow-up
+PT0475,SITE06,Treatment,48,Male,Caucasian,Diabetes,2025-02-01,Ongoing
+PT0476,SITE03,Placebo,22,Male,African American,"Obesity, Anxiety",2024-09-18,Withdrawn
+PT0477,SITE05,Treatment,68,Male,Hispanic,"Asthma, Obesity, Diabetes, Hypertension, Depression",2025-02-09,Ongoing
+PT0478,SITE02,Treatment,71,Female,Caucasian,"Hyperlipidemia, Hypertension",2024-08-27,Ongoing
+PT0479,SITE10,Placebo,35,Female,Caucasian,"Diabetes, Hypertension, Depression, Anxiety",2024-08-11,Completed
+PT0480,SITE01,Treatment,39,Male,Hispanic,"Hyperlipidemia, Depression, Hypertension, Obesity, COPD",2024-06-30,Completed
+PT0481,SITE01,Treatment,49,Male,African American,"Anxiety, Diabetes, Hyperlipidemia",2024-11-19,Completed
+PT0482,SITE10,Treatment,50,Male,Caucasian,None,2024-11-24,Ongoing
+PT0483,SITE07,Treatment,54,Male,Caucasian,"Depression, Diabetes, Arthritis",2024-10-17,Completed
+PT0484,SITE02,Treatment,75,Male,Caucasian,"COPD, Asthma, Diabetes, Anxiety",2024-12-11,Completed
+PT0485,SITE04,Treatment,42,Female,Caucasian,None,2024-12-03,Completed
+PT0486,SITE05,Placebo,33,Female,Caucasian,"Obesity, Hyperlipidemia, Depression",2025-01-04,Ongoing
+PT0487,SITE07,Treatment,24,Female,African American,"Anxiety, Hyperlipidemia, Depression, Obesity",2024-11-11,Lost to Follow-up
+PT0488,SITE02,Treatment,34,Female,Asian,"Arthritis, Depression, Obesity, Diabetes",2024-11-08,Lost to Follow-up
+PT0489,SITE06,Placebo,44,Male,African American,"Arthritis, Hyperlipidemia, Diabetes, Asthma, Hypertension",2024-06-13,Completed
+PT0490,SITE01,Placebo,71,Male,Hispanic,"Arthritis, Hypertension",2025-03-23,Withdrawn
+PT0491,SITE07,Treatment,37,Male,Caucasian,COPD,2024-08-28,Ongoing
+PT0492,SITE09,Treatment,48,Male,Caucasian,None,2024-07-12,Completed
+PT0493,SITE05,Treatment,44,Male,Caucasian,"Arthritis, Hyperlipidemia, Obesity, Depression",2024-12-27,Completed
+PT0494,SITE05,Treatment,62,Female,Caucasian,Depression,2025-01-15,Completed
+PT0495,SITE04,Treatment,82,Male,African American,"Obesity, Hyperlipidemia, Anxiety, COPD, Arthritis",2025-03-02,Withdrawn
+PT0496,SITE03,Treatment,37,Female,Other,Anxiety,2025-03-06,Completed
+PT0497,SITE09,Treatment,37,Female,Caucasian,"Obesity, Arthritis",2025-02-06,Completed
+PT0498,SITE05,Treatment,60,Female,Caucasian,"Hypertension, Obesity, Depression",2024-12-25,Ongoing
+PT0499,SITE08,Placebo,55,Female,Hispanic,"COPD, Hyperlipidemia, Obesity, Asthma",2024-10-18,Completed
+PT0500,SITE09,Placebo,72,Male,Caucasian,"Hypertension, Obesity, Arthritis, Diabetes, Depression",2025-03-07,Completed

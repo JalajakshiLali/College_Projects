@@ -1,0 +1,15 @@
+Model,Metric,Value
+Patient Dropout Prediction,Accuracy,0.7926829268292683
+Patient Dropout Prediction,Precision,0.0
+Patient Dropout Prediction,Recall,0.0
+Patient Dropout Prediction,F1 Score,0.0
+Adverse Event Risk,Accuracy,0.91
+Adverse Event Risk,Precision,0.0
+Adverse Event Risk,Recall,0.0
+Adverse Event Risk,F1 Score,0.0
+Site Performance Prediction,Mean Squared Error,79.64191300000005
+Site Performance Prediction,Root Mean Squared Error,8.924231787666658
+Site Performance Prediction,R² Score,-5.6911920184835045
+Trial Duration Estimation,Mean Squared Error,12.178228124393685
+Trial Duration Estimation,Root Mean Squared Error,3.489731812674677
+Trial Duration Estimation,R² Score,

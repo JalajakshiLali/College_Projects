@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Trials Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Chart.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@4.0.0/dist/chart.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Clinical Trials Dashboard</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#overview" data-bs-toggle="tab"><i class="fas fa-home"></i> Overview</a>
+                </li>
+                <li>
+                    <a href="#enrollment" data-bs-toggle="tab"><i class="fas fa-user-plus"></i> Enrollment</a>
+                </li>
+                <li>
+                    <a href="#retention" data-bs-toggle="tab"><i class="fas fa-user-check"></i> Retention</a>
+                </li>
+                <li>
+                    <a href="#timeline" data-bs-toggle="tab"><i class="fas fa-calendar-alt"></i> Timeline</a>
+                </li>
+                <li>
+                    <a href="#adverse-events" data-bs-toggle="tab"><i class="fas fa-exclamation-triangle"></i> Adverse Events</a>
+                </li>
+                <li>
+                    <a href="#lab-results" data-bs-toggle="tab"><i class="fas fa-flask"></i> Lab Results</a>
+                </li>
+                <li>
+                    <a href="#site-performance" data-bs-toggle="tab"><i class="fas fa-chart-line"></i> Site Performance</a>
+                </li>
+                <li>
+                    <a href="#predictive" data-bs-toggle="tab"><i class="fas fa-brain"></i> Predictive Insights</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="ms-auto">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-download"></i> Export
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#"><i class="far fa-file-pdf"></i> PDF Report</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="far fa-file-excel"></i> Excel Data</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="far fa-file-image"></i> Charts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="tab-content">
+                <!-- Overview Tab -->
+                <div class="tab-pane fade show active" id="overview">
+                    <h2>Study Overview</h2>
+                    <div class="row mt-4">
+                        <div class="col-md-3">
+                            <div class="card text-white bg-primary mb-3">
+                                <div class="card-header">Total Patients</div>
+                                <div class="card-body">
+                                    <h5 class="card-title" id="total-patients">Loading...</h5>
+                                    <p class="card-text"><small>Enrolled in the study</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card text-white bg-success mb-3">
+                                <div class="card-header">Active Sites</div>
+                                <div class="card-body">
+                                    <h5 class="card-title" id="total-sites">Loading...</h5>
+                                    <p class="card-text"><small>Participating in the study</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card text-white bg-warning mb-3">
+                                <div class="card-header">Completion Rate</div>
+                                <div class="card-body">
+                                    <h5 class="card-title" id="completion-rate">Loading...</h5>
+                                    <p class="card-text"><small>Study completion percentage</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card text-white bg-danger mb-3">
+                                <div class="card-header">Adverse Events</div>
+                                <div class="card-body">
+                                    <h5 class="card-title" id="total-ae">Loading...</h5>
+                                    <p class="card-text"><small>Total reported events</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Patient Status Distribution
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="patient-status-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Study Arm Distribution
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="study-arm-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    Study Timeline Progress
+                                </div>
+                                <div class="card-body">
+                                    <div class="progress-tracker" id="timeline-progress">
+                                        <!-- Timeline progress will be inserted here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enrollment Tab -->
+                <div class="tab-pane fade" id="enrollment">
+                    <h2>Enrollment Metrics</h2>
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    Enrollment Progress
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="enrollment-progress-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Enrollment by Site
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="enrollment-by-site-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Enrollment Rate by Site Type
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="enrollment-by-site-type-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    Site Enrollment Details
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped" id="enrollment-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Site ID</th>
+                                                    <th>Country</th>
+                                                    <th>Site Type</th>
+                                                    <th>Target</th>
+                                                    <th>Actual</th>
+                                                    <th>Progress</th>
+                                                    <th>Rate (patients/month)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- Enrollment data will be inserted here -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Retention Tab -->
+                <div class="tab-pane fade" id="retention">
+                    <h2>Retention Metrics</h2>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Retention Rate by Site
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="retention-by-site-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Dropout Reasons
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="dropout-reasons-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    Site Retention Details
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped" id="retention-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Site ID</th>
+                                                    <th>Total Patients</th>
+                                                    <th>Completed</th>
+                                                    <th>Ongoing</th>
+                                                    <th>Withdrawn</th>
+                                                    <th>Lost to Follow-up</th>
+                                                    <th>Completion Rate</th>
+                                                    <th>Dropout Rate</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- Retention data will be inserted here -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Tab -->
+                <div class="tab-pane fade" id="timeline">
+                    <h2>Study Timeline</h2>
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    Study Milestones
+                                </div>
+                                <div class="card-body">
+                                    <div id="timeline-gantt"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Phase Completion Status
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="phase-status-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Phase Delays
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="phase-delays-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    Timeline Details
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped" id="timeline-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Phase</th>
+                                                    <th>Planned Start</th>
+                                                    <th>Planned End</th>
+                                                    <th>Actual Start</th>
+                                                    <th>Actual End</th>
+                                                    <th>Status</th>
+                                                    <th>Delay (days)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- Timeline data will be inserted here -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adverse Events Tab -->
+                <div class="tab-pane fade" id="adverse-events">
+                    <h2>Adverse Events</h2>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Top Adverse Events
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="top-ae-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Adverse Events by Severity
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="ae-severity-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Adverse Events by Site
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="ae-by-site-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Relationship to Treatment
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="ae-relationship-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lab Results Tab -->
+                <div class="tab-pane fade" id="lab-results">
+                    <h2>Laboratory Results</h2>
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    Abnormal Lab Result Rates by Test
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="abnormal-lab-rates-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    Lab Results Details
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped" id="lab-results-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Test Name</th>
+                                                    <th>Total Tests</th>
+                                                    <th>Normal Results</th>
+                                                    <th>Abnormal Results</th>
+                                                    <th>Abnormal Rate</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- Lab results data will be inserted here -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Site Performance Tab -->
+                <div class="tab-pane fade" id="site-performance">
+                    <h2>Site Performance</h2>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Enrollment Performance
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="site-enrollment-performance-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Retention Performance
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="site-retention-performance-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Protocol Deviations by Site
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="protocol-deviations-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Query Resolution Time
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="query-resolution-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    Site Performance Details
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped" id="site-performance-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Site ID</th>
+                                                    <th>Country</th>
+                                                    <th>Site Type</th>
+                                                    <th>Experience</th>
+                                                    <th>Enrollment Rate</th>
+                                                    <th>Retention Rate</th>
+                                                    <th>Protocol Deviations</th>
+                                                    <th>Query Resolution Time</th>
+                                                    <th>Performance Score</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- Site performance data will be inserted here -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Predictive Insights Tab -->
+                <div class="tab-pane fade" id="predictive">
+                    <h2>Predictive Insights</h2>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Patient Dropout Risk
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="dropout-risk-chart"></canvas>
+                                    <div class="mt-3">
+                                        <h5>High Risk Sites</h5>
+                                        <div id="high-risk-sites"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Adverse Event Risk
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="ae-risk-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Site Performance Prediction
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h5>Top Performers</h5>
+                                            <div id="top-performers"></div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h5>Underperformers</h5>
+                                            <div id="underperformers"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Timeline Prediction
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h5>Estimated Completion</h5>
+                                            <p id="estimated-completion-date"></p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h5>Delay Risk</h5>
+                                            <p id="delay-risk"></p>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-12">
+                                            <h5>Critical Phases</h5>
+                                            <div id="critical-phases"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.0/dist/chart.umd.min.js"></script>
+    <!-- Moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

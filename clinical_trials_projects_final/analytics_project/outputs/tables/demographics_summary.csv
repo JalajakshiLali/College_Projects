@@ -1,0 +1,12 @@
+Metric,Value
+Total Patients,500
+Average Age,44.8 years
+Age Range,18 - 85 years
+Male Count,239
+Female Count,261
+Treatment Arm,346
+Placebo Arm,154
+Completed,309
+Ongoing,93
+Withdrawn,76
+Lost to Follow-up,22

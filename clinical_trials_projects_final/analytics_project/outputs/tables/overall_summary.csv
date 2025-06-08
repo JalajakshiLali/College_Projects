@@ -1,0 +1,41 @@
+Section,Metric,Value
+Patient Demographics,,
+Patient Demographics,Total Patients,500
+Patient Demographics,Average Age,44.8 years
+Patient Demographics,Age Range,18 - 85 years
+Patient Demographics,Male Count,239
+Patient Demographics,Female Count,261
+Patient Demographics,Treatment Arm,346
+Patient Demographics,Placebo Arm,154
+Patient Demographics,Completed,309
+Patient Demographics,Ongoing,93
+Patient Demographics,Withdrawn,76
+Patient Demographics,Lost to Follow-up,22
+Adverse Events,,
+Adverse Events,Total Adverse Events,313
+Adverse Events,Patients with Adverse Events,239
+Adverse Events,Most Common Adverse Event,Diarrhea
+Adverse Events,Severe or Life-threatening Events,46
+Adverse Events,Definitely Related to Treatment,36
+Lab Results,,
+Lab Results,Total Lab Tests,9333
+Lab Results,Abnormal Results,905
+Lab Results,Abnormal Rate,9.7%
+Lab Results,Test with Highest Abnormal Rate,ALT (11.9%)
+Lab Results,Test with Lowest Abnormal Rate,Creatinine (7.9%)
+Site Performance,,
+Site Performance,Total Sites,10
+Site Performance,Average Enrollment Rate,2.8 patients/month
+Site Performance,Average Retention Rate,82.6%
+Site Performance,Total Protocol Deviations,99
+Site Performance,Average Query Resolution Time,4.2 days
+Site Performance,Best Performing Site (Enrollment),SITE08
+Site Performance,Best Performing Site (Retention),SITE01
+Study Timeline,,
+Study Timeline,Total Phases,9
+Study Timeline,Completed Phases,5
+Study Timeline,In Progress Phases,1
+Study Timeline,Planned Phases,3
+Study Timeline,Average Start Delay,8.6 days
+Study Timeline,Average End Delay,11.0 days
+Study Timeline,Most Delayed Phase,Site Initiation

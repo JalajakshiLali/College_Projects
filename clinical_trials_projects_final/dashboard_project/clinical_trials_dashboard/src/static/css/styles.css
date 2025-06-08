@@ -1,0 +1,242 @@
+/* Clinical Trials Dashboard Custom Styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #343a40;
+    color: #fff;
+    transition: all 0.3s;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #212529;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    color: #343a40;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #495057;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: 600;
+}
+
+.table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+/* Progress bar styles */
+.progress {
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+/* Timeline styles */
+.progress-tracker {
+    margin: 20px 0;
+}
+
+.progress-step {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.progress-step-label {
+    width: 150px;
+    font-weight: 600;
+}
+
+.progress-step-bar {
+    flex-grow: 1;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    position: relative;
+    height: 20px;
+}
+
+.progress-step-bar-fill {
+    background-color: #28a745;
+    height: 100%;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress-step-bar-fill.planned {
+    background-color: #6c757d;
+    opacity: 0.5;
+}
+
+.progress-step-bar-fill.in-progress {
+    background-color: #007bff;
+}
+
+.progress-step-bar-fill.completed {
+    background-color: #28a745;
+}
+
+.progress-step-bar-fill.delayed {
+    background-color: #dc3545;
+}
+
+/* Gantt chart styles */
+#timeline-gantt {
+    margin: 20px 0;
+    position: relative;
+    height: 300px;
+}
+
+.gantt-bar {
+    position: absolute;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.gantt-bar.planned {
+    background-color: #6c757d;
+    opacity: 0.5;
+}
+
+.gantt-bar.actual {
+    background-color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+/* Custom colors for status indicators */
+.status-completed {
+    color: #28a745;
+}
+
+.status-in-progress {
+    color: #007bff;
+}
+
+.status-planned {
+    color: #6c757d;
+}
+
+.status-delayed {
+    color: #dc3545;
+}
+
+/* Badge styles */
+.badge-risk-high {
+    background-color: #dc3545;
+    color: white;
+}
+
+.badge-risk-medium {
+    background-color: #ffc107;
+    color: black;
+}
+
+.badge-risk-low {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Site performance score styles */
+.score-excellent {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.score-good {
+    color: #17a2b8;
+    font-weight: bold;
+}
+
+.score-average {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.score-poor {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Icon spacing */
+.fas, .far {
+    margin-right: 8px;
+}
